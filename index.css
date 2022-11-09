@@ -1,0 +1,84 @@
+@import url(./vendor/fonts/fonts.css);
+
+.page {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  background-color: rgb(138, 71, 71);
+  
+}
+
+.body {
+  background-color: rgb(223, 22, 22);
+}
+
+.header {
+max-width: 1280px;
+width: 100%;
+max-height: 720px;
+height: 729px;
+background-image: url(./image/Intro-girl.png);
+background-size: cover;
+}
+
+
+.header__menu {
+  display: flex;
+  width: 1034px;
+  padding-top: 26px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 auto;
+  font-size: 17px;
+}
+
+.menu__item {
+text-decoration: none;
+color: white;
+font-family: 'steppe';
+}
+
+.menu__item {
+  margin-left: 93px;
+}
+
+.intro__title {
+  margin: 160px 0 0 123px;
+  max-width: 680px;
+  font-size: 75px;
+  color: white;
+  font-style: oblique;
+  
+}
+
+.intro__subtitle {
+  margin: 10px 0 0 123px;
+  font-size: 17px;
+  color: white;
+  font-family: 'Steppe';
+  font-weight: 200;
+  
+}
+
+.change-button__image {
+  position: relative;
+  z-index: 1;
+}
+
+.change-button__text {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  font-family: 'Steppe';
+}
+
+.change-button{
+  width: 265px;
+  display: flex;
+  justify-content: center;
+  margin: 80px 0 0 123px;
+}
